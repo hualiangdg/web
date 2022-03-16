@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: '花蓮.py/花蓮R/花蓮GDG',
+  tagline: '🕸️',
+  url: 'https://www.facebook.com/groups/hualienpy',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -49,15 +49,25 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
+          // {to: '/blog', label: 'Facebook', position: 'left'},
           {
-            type: 'doc',
-            docId: 'intro',
+            href: 'https://www.facebook.com/groups/hualienpy',
+            label: 'Facebook',
             position: 'left',
-            label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://www.meetup.com/Hualien-Py/',
+            label: 'Meetup',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/gasolin/hualiangdg',
             label: 'GitHub',
             position: 'right',
           },
