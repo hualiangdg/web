@@ -9,12 +9,12 @@ const config = {
   title: '花蓮.py/花蓮R/花蓮GDG',
   tagline: '🕸️',
   url: 'https://www.facebook.com/groups/hualienpy',
-  baseUrl: '/web',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'hualiangdg', // Usually your GitHub org/user name.
+  projectName: 'web', // Usually your repo name.
 
   presets: [
     [
