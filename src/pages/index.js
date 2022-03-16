@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             href="https://www.facebook.com/groups/hualienpy">
-            查看 FaceBook
+            查看 Meetup
           </Link>
         </div>
       </div>
