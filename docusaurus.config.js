@@ -9,7 +9,7 @@ const config = {
   title: '花蓮.py/花蓮R/花蓮GDG',
   tagline: '🕸️',
   url: 'https://www.facebook.com/groups/hualienpy',
-  baseUrl: '/',
+  baseUrl: '/web',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
